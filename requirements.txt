@@ -1,0 +1,4 @@
+django==4.2.10
+psycopg2==2.9.9
+python-dotenv==1.0.1
+gunicorn==21.2.0
