@@ -17,6 +17,8 @@ ALLOWED_HOSTS = [host.strip() for host in os.environ.get("ALLOWED_HOSTS").split(
 
 CSRF_TRUSTED_ORIGINS = [os.environ.get("CSRF_TRUSTED_ORIGINS")]
 
+SILENCED_SYSTEM_CHECKS=['staticfiles.W004']
+
 
 # Application definition
 
